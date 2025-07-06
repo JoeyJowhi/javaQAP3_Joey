@@ -13,6 +13,5 @@ public class Demo {
 
         CollegeStudent ima = new CollegeStudent("Ima Frosh", 18, 'F', "UCB123", 4.0, "English", 1 );
         System.out.println(ima);
-
     }
 }
