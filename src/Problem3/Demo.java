@@ -1,7 +1,5 @@
 package Problem3;
 
-import java.util.Arrays;
-
 public class Demo {
     public static Shape[] scaleArray(Shape[] shapeArray, double factor) {
         for (Shape s : shapeArray) {
