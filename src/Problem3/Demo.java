@@ -1,6 +1,16 @@
 package Problem3;
 
+import java.util.Arrays;
+
 public class Demo {
+    public static Shape[] scaleArray(Shape[] shapeArray, double factor) {
+        for (Shape s : shapeArray) {
+            s.scale(factor);
+        }
+
+        return shapeArray;
+    }
+
     public static void main(String[] args) {
         Ellipse ellipse = new Ellipse("ellis", 13, 18);
 
@@ -13,6 +23,13 @@ public class Demo {
         Shape[] shapeArray = new Shape[] {ellipse, circle, triangle, equilateralTriangle};
 
         for (Shape s : shapeArray) {
+            System.out.println(s);
+        }
+
+        System.out.println("---After Scaling By a Factor of 4---");
+
+
+        for (Shape s : scaleArray(shapeArray, 4)) {
             System.out.println(s);
         }
     }

@@ -29,4 +29,11 @@ public class Ellipse extends Shape {
         //p = π√(2(a^2 + b^2) - (a - b)^2 / 2)
         return this.a == this.b ? 2 * Math.PI * this.a : Math.PI * Math.sqrt((2 * (Math.pow(this.a, 2) + Math.pow(this.b, 2))) - (Math.pow((this.a - this.b), 2) / 2));
     }
+
+
+    //Interface Methods
+    @Override public void scale(double factor) {
+        this.a *= factor;
+        this.b *= factor;
+    }
 }

@@ -1,6 +1,6 @@
 package Problem3;
 
-public abstract class Shape {
+public abstract class Shape implements Scalable {
     private String name;
 
 

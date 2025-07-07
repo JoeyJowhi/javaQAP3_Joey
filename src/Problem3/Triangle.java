@@ -28,4 +28,12 @@ public class Triangle extends Shape {
     @Override public double getPerimeter() {
         return side1 + side2 + side3;
     }
+
+
+    //Interface Methods
+    @Override public void scale(double factor) {
+        this.side1 *= factor;
+        this.side2 *= factor;
+        this.side3 *= factor;
+    }
 }

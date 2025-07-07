@@ -26,4 +26,11 @@ public class Circle extends Shape {
     @Override public double getPerimeter() {
         return 2 * Math.PI * this.a;
     }
+
+
+    //Interface Methods
+    @Override public void scale(double factor) {
+        this.a *= factor;
+        this.b *= factor;
+    }
 }
