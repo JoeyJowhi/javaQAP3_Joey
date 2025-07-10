@@ -1,13 +1,13 @@
-package Problem3;
+package Problem3and4;
 
-public class EquilateralTriangle extends Shape {
+public class Triangle extends Shape {
     private double side1, side2, side3;
 
 
     //Constructors
-    public EquilateralTriangle(String name, double side1, double side2, double side3) {
-        if (side1 != side2 || side2 != side3 || side3 != side1) {
-            System.out.println("\n   Error: Invalid side values were given for creation of a EquilateralTriangle object.\n");
+    public Triangle(String name, double side1, double side2, double side3) {
+        if (side1 + side2 < side3 && side2 + side3 < side1 && side3 + side1 < side2) {
+            System.out.println("\n   Error: Invalid side values were given for creation of a Triangle object.\n");
             System.exit(0);
         }
 

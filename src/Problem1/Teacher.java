@@ -6,7 +6,7 @@ public class Teacher extends Person {
 
 
     //Constructors
-    public Teacher(String name, int age, char gender, String subject, double salary) {
+    public Teacher(String name, int age, String gender, String subject, double salary) {
         super(name, age, gender);
         this.subject = subject;
         this.salary = salary;

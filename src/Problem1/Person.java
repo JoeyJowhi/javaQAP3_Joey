@@ -3,11 +3,11 @@ package Problem1;
 public class Person {
     protected String name;
     protected int age;
-    protected char gender;
+    protected String gender;
 
 
     //Constructors
-    public Person (String name, int age, char gender) {
+    public Person (String name, int age, String gender) {
         this.name = name;
         this.age = age;
         this.gender = gender;
@@ -29,7 +29,7 @@ public class Person {
         return this.age;
     }
 
-    public char getGender() {
+    public String getGender() {
         return this.gender;
     }
 
@@ -43,7 +43,7 @@ public class Person {
         this.age = age;
     }
 
-    public void setGender (char gender) {
+    public void setGender (String gender) {
         this.gender = gender;
     }
 }

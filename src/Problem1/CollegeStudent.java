@@ -6,7 +6,7 @@ public class CollegeStudent extends Student {
 
 
     //Constructor
-    public CollegeStudent(String name, int age, char gender, String IDNum, double GPA, String major, int year) {
+    public CollegeStudent(String name, int age, String gender, String IDNum, double GPA, String major, int year) {
         super(name, age, gender, IDNum, GPA);
         this.major = major;
         this.year = year;

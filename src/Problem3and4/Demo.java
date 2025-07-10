@@ -1,4 +1,4 @@
-package Problem3;
+package Problem3and4;
 
 public class Demo {
     public static Shape[] scaleArray(Shape[] shapeArray, double factor) {

@@ -6,7 +6,7 @@ public class Student extends Person {
 
 
     //Constructors
-    public Student(String name, int age, char gender, String IDNum, double GPA) {
+    public Student(String name, int age, String gender, String IDNum, double GPA) {
         super(name, age, gender);
         this.IDNum = IDNum;
         this.GPA = GPA;
